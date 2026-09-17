@@ -1,9 +1,9 @@
 # HR Attrition Analysis — Project Report
 
-**Prepared by:** `<Your Name>`
+**Prepared by:** `<Srishti Kumari>`
 **Tools:** PostgreSQL · Power BI Desktop · DAX · Power Query
 **Deliverable:** Two-page interactive Power BI report (`HR_Attrition_Analysis_Dashboard.pbix`)
-**Date:** `<Month Year>`
+**Date:** `<September 2026>`
 
 > Placeholders marked `<...>` should be filled with the actual figures shown on your dashboard.
 
@@ -11,7 +11,7 @@
 
 ## 1. Executive Summary
 
-The organization is losing **`<attrition %>`%** of its workforce — `<attrition count>` employees out of `<total employees>`. That loss is not spread evenly. It concentrates sharply in a definable segment: young, single, early-tenure employees at low job levels and low salary bands, frequently working overtime and without a recent promotion, most often in **Sales** or **Laboratory Technician** roles.
+The organization is losing **`<16.08>`%** of its workforce — `<238>` employees out of `<1470>`. That loss is not spread evenly. It concentrates sharply in a definable segment: young, single, early-tenure employees at low job levels and low salary bands, frequently working overtime and without a recent promotion, most often in **Sales** or **Laboratory Technician** roles.
 
 This is operationally good news. A uniform attrition problem requires a company-wide intervention; a concentrated one can be addressed with targeted action at a fraction of the cost. The analysis below identifies where that action should be aimed.
 
@@ -86,11 +86,11 @@ Two pages, each following an identical layout logic: a **KPI strip** across the 
 
 | KPI | Value | Read |
 |---|---|---|
-| Employee Count | `<value>` | Total workforce in scope |
-| Attrition Rate | `<value>`% | Share of employees who have left |
-| Average Monthly Salary | `<value>` | Compensation baseline |
-| Average Salary Hike | `<value>`% | Appraisal generosity baseline |
-| Average Tenure | `<value>` yrs | Workforce maturity |
+| Employee Count | `<1470>` | Total workforce in scope |
+| Attrition Rate | `<16.08>`% | Share of employees who have left |
+| Average Monthly Salary | `<6.05K>` | Compensation baseline |
+| Average Salary Hike | `<15.21>`% | Appraisal generosity baseline |
+| Average Tenure | `<7.01>` yrs | Workforce maturity |
 
 ### 4.2 Who is leaving
 
