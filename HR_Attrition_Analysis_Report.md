@@ -1,17 +1,17 @@
 # HR Attrition Analysis — Project Report
 
-**Prepared by:** `<Srishti Kumari>`
+**Prepared by:** `Srishti Kumari`
 **Tools:** PostgreSQL · Power BI Desktop · DAX · Power Query
-**Deliverable:** Two-page interactive Power BI report (`HR_Attrition_Analysis_Dashboard.pbix`)
-**Date:** `<September 2026>`
+**Deliverable:** Two-page interactive Power BI report (``)
+**Date:** `September 2026`
 
-> Placeholders marked `<...>` should be filled with the actual figures shown on your dashboard.
+
 
 ---
 
 ## 1. Executive Summary
 
-The organization is losing **`<16.08>`%** of its workforce — `<238>` employees out of `<1470>`. That loss is not spread evenly. It concentrates sharply in a definable segment: young, single, early-tenure employees at low job levels and low salary bands, frequently working overtime and without a recent promotion, most often in **Sales** or **Laboratory Technician** roles.
+The organization is losing **`16.08`%** of its workforce — `238` employees out of `1470`. That loss is not spread evenly. It concentrates sharply in a definable segment: young, single, early-tenure employees at low job levels and low salary bands, frequently working overtime and without a recent promotion, most often in **Sales** or **Laboratory Technician** roles.
 
 This is operationally good news. A uniform attrition problem requires a company-wide intervention; a concentrated one can be addressed with targeted action at a fraction of the cost. The analysis below identifies where that action should be aimed.
 
