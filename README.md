@@ -4,7 +4,7 @@ An end-to-end HR analytics project that answers one question for a people-operat
 
 Employee data is loaded into **PostgreSQL**, modelled and measured in **Power BI**, and presented as a two-page interactive dashboard that moves from *what is happening* (attrition overview) to *why it is happening* (attrition drivers).
 
-> Replace the placeholders marked `<...>` with the real numbers from your dashboard before publishing.
+
 
 ---
 
@@ -53,10 +53,12 @@ The HR leadership team needed answers to four questions:
 ## Dashboard Preview
 
 ### Page 1 — Attrition Overview
-![Attrition Overview](assets/page1_attrition_overview.png)
+![Attrition Overview](<img width="1042" height="760" alt="Attrition Overview" src="https://github.com/user-attachments/assets/20423533-c445-4684-a327-2013a3eede75" />
+)
 
 ### Page 2 — Attrition Drivers & Insights
-![Attrition Drivers](assets/page2_attrition_drivers.png)
+![Attrition Drivers](<img width="1047" height="757" alt="Attrition Drives" src="https://github.com/user-attachments/assets/9a873913-70d8-487f-a89b-837499979229" />
+)
 
 ## Tech Stack
 
@@ -90,7 +92,7 @@ The dataset holds one record per employee with demographic, job and compensation
 | `yearsatcompany` / `YearsAtCompany Group` | int / text | Tenure and its banded version |
 | `yearssincelastpromotion` / `YearSinceLastPromotion Group` | int / text | Promotion gap and its banded version |
 
-**Rows:** `<row count>` employees &nbsp;|&nbsp; **Attrition cases:** `<attrition count>`
+**Rows:** `1470` employees &nbsp;|&nbsp; **Attrition cases:** `237`
 
 > The banded columns (`agegroup`, `salaryslab`, and the two `Group` columns) are derived fields created during preparation — they turn continuous variables into readable buckets so the charts answer business questions instead of showing noise.
 
@@ -250,7 +252,7 @@ HR-Attrition-Analysis-Dashboard/
 
 ## Author
 
-**`<Your Name>`**
-`<LinkedIn URL>` · `<Portfolio / GitHub URL>` · `<Email>`
+**`Srishti Sah`**
+`LinkedIn: https://www.linkedin.com/in/srishti-kumari-632a55355/` · `GitHub: https://github.com/Srishtisha-21` · `srishti1922sha@gmail.com`
 
-If this project was useful to you, a ⭐ on the repository is appreciated.
+
