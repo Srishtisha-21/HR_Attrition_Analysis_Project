@@ -2,7 +2,7 @@
 
 **Prepared by:** `Srishti Kumari`
 **Tools:** PostgreSQL · Power BI Desktop · DAX · Power Query
-**Deliverable:** Two-page interactive Power BI report (``)
+**Deliverable:** Two-page interactive Power BI report 
 **Date:** `September 2026`
 
 
@@ -86,11 +86,11 @@ Two pages, each following an identical layout logic: a **KPI strip** across the 
 
 | KPI | Value | Read |
 |---|---|---|
-| Employee Count | `<1470>` | Total workforce in scope |
-| Attrition Rate | `<16.08>`% | Share of employees who have left |
-| Average Monthly Salary | `<6.05K>` | Compensation baseline |
-| Average Salary Hike | `<15.21>`% | Appraisal generosity baseline |
-| Average Tenure | `<7.01>` yrs | Workforce maturity |
+| Employee Count | `1470` | Total workforce in scope |
+| Attrition Rate | `16.08`% | Share of employees who have left |
+| Average Monthly Salary | `6.05K` | Compensation baseline |
+| Average Salary Hike | `15.21`% | Appraisal generosity baseline |
+| Average Tenure | `7.01` yrs | Workforce maturity |
 
 ### 4.2 Who is leaving
 
