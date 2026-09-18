@@ -1,0 +1,50 @@
+// ============================================================
+// HR Attrition Analysis Dashboard - DAX Measures
+// Table: DAX_Measure  (measure-only table)
+// Source table: 'public employee'
+// ============================================================
+
+// Headcount in the current filter context
+Total Employees =
+COUNT('public employee'[employeeid])
+
+
+// Employees who have left the organization
+Attrition Count =
+CALCULATE(
+    COUNT('public employee'[employeeid]),
+    'public employee'[attrition] = "Yes"
+)
+
+
+// Core metric: share of employees who left.
+// DIVIDE handles the divide-by-zero case when a slicer empties the context.
+Attrition% =
+DIVIDE(
+    [Attrition Count],
+    [Total Employees],
+    0
+)
+
+
+// ---------- Optional additions ----------
+
+// Employees still with the organization
+Active Employees =
+[Total Employees] - [Attrition Count]
+
+// Retention rate, the complement of attrition
+Retention% =
+1 - [Attrition%]
+
+// Average compensation of employees who left - useful for cost framing
+Avg Salary of Leavers =
+CALCULATE(
+    AVERAGE('public employee'[monthlyincome]),
+    'public employee'[attrition] = "Yes"
+)
+
+// Gap between a segment's attrition and the company-wide rate.
+// Positive = this segment is worse than the company average.
+Attrition% vs Company =
+[Attrition%] - CALCULATE([Attrition%], ALL('public employee'))
