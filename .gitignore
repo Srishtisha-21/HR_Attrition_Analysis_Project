@@ -1,0 +1,19 @@
+# Power BI temp / cache
+*.pbix.bak
+*.tmp
+~$*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Credentials - never commit these
+*.env
+credentials.json
+config.local.*
+
+# Python (if you add analysis notebooks later)
+__pycache__/
+.ipynb_checkpoints/
+venv/
