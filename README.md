@@ -53,14 +53,14 @@ The HR leadership team needed answers to four questions:
 ## Dashboard Preview
 
 ### Page 1 — Attrition Overview
-(<img width="1042" height="760" alt="Attrition Overview" src="https://github.com/user-attachments/assets/d6cc43ed-9315-4643-bd1c-9dc431166918" />
+<img width="1042" height="760" alt="Attrition Overview" src="https://github.com/user-attachments/assets/d6cc43ed-9315-4643-bd1c-9dc431166918" />
 
-)
+
 
 ### Page 2 — Attrition Drivers & Insights
-(<img width="1047" height="757" alt="Attrition Drives" src="https://github.com/user-attachments/assets/6d91a3ca-8a02-4d71-8e31-32cb7a80befb" />
+<img width="1047" height="757" alt="Attrition Drives" src="https://github.com/user-attachments/assets/6d91a3ca-8a02-4d71-8e31-32cb7a80befb" />
 
-)
+
 
 ## Tech Stack
 
