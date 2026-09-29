@@ -53,12 +53,13 @@ The HR leadership team needed answers to four questions:
 ## Dashboard Preview
 
 ### Page 1 — Attrition Overview
-<img width="1042" height="760" alt="Attrition Overview" src="https://github.com/user-attachments/assets/d6cc43ed-9315-4643-bd1c-9dc431166918" />
+<img width="1042" height="760" alt="Attrition Overview" src="https://github.com/user-attachments/assets/370c5c36-0133-43b5-8852-a7c397d66fac" />
 
 
 
 ### Page 2 — Attrition Drivers & Insights
-<img width="1047" height="757" alt="Attrition Drives" src="https://github.com/user-attachments/assets/6d91a3ca-8a02-4d71-8e31-32cb7a80befb" />
+<img width="1047" height="757" alt="Attrition Drives" src="https://github.com/user-attachments/assets/7fc78f09-c89e-4df9-8b4b-9f018b5264bd" />
+
 
 
 
@@ -198,18 +199,17 @@ The same KPI strip and slicers carry over, so a filtered view on page 1 can be f
 HR-Attrition-Analysis-Dashboard/
 │
 ├── README.md
-├── LICENSE
+├── HR_Attrition_Analysis_Report.md
 ├── .gitignore
 │
 ├── dashboard/
 │   └── HR_Attrition_Analysis_Dashboard.pbix
 │
 ├── data/
-│   └── hr_employee_data.csv
+│   └── HR_Analytics.csv
 │
 ├── sql/
-│   ├── 01_create_table.sql
-│   └── 02_data_exploration.sql
+│   ├── HR_Attrition_SQL_Queries.sql
 │
 ├── dax/
 │   └── measures.dax
@@ -218,8 +218,7 @@ HR-Attrition-Analysis-Dashboard/
 │   ├── page1_attrition_overview.png
 │   └── page2_attrition_drivers.png
 │
-└── docs/
-    └── HR_Attrition_Analysis_Report.md
+    ── HR_Attrition_Analysis_Report.md
 ```
 
 ## How to Run This Project
@@ -254,7 +253,7 @@ HR-Attrition-Analysis-Dashboard/
 
 ## Author
 
-**`Srishti Sah`**
-`LinkedIn: https://www.linkedin.com/in/srishti-kumari-632a55355/` · `GitHub: https://github.com/Srishtisha-21` · `srishti1922sha@gmail.com`
+**`Srishti Kumari`**
+`LinkedIn: https://www.linkedin.com/in/srishti-kumari-analytics/` · `GitHub: https://github.com/Srishtisha-21` · `srishti1922sha@gmail.com`
 
 
